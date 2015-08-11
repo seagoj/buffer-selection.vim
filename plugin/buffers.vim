@@ -20,3 +20,12 @@ if has("gui_running")
     map <C-S-h>  <C-w><S-h>
     map <C-S-l>  <C-w><S-l>
 endif
+
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
+
+function! AirlineConfig()
+    let g:airline#extensions#tabline#enabled = 1
+    let g:airline_powerline_fonts = 1
+endfunction
+
