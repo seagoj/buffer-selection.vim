@@ -14,7 +14,7 @@ else
 endif
 
 " Move buffers
-nnoremap <C-S-j>  :echo "called"
+nnoremap <c-s-j>  :echo "called"
 nnoremap <C-S-k>  <C-w><S-K>
 nnoremap <C-S-h>  <C-w><S-h>
 nnoremap <C-S-l>  <C-w><S-l>
