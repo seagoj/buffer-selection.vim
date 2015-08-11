@@ -1,5 +1,5 @@
 " Move between buffers
-" map <C-j>   <C-W>j
+map <C-j>   <C-W>j
 map <C-k>   <C-W>k
 map <C-h>   <C-W>h
 map <C-l>   <C-W>l
@@ -13,8 +13,10 @@ else
     map <leader>-   :new<cr>
 endif
 
-" Move buffers
-map <c-s-j>  :echo "called"
-map <C-S-k>  <C-w><S-K>
-map <C-S-h>  <C-w><S-h>
-map <C-S-l>  <C-w><S-l>
+if has("gui_running")
+    " Move buffers
+    map <C-S-j>  <C-w><S-j>
+    map <C-S-k>  <C-w><S-k>
+    map <C-S-h>  <C-w><S-h>
+    map <C-S-l>  <C-w><S-l>
+endif
