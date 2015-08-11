@@ -1,9 +1,3 @@
-" Move buffers
-map <C-S-j>  <C-w><S-j>
-map <C-S-k>  <C-w><S-K>
-map <C-S-h>  <C-w><S-h>
-map <C-S-l>  <C-w><S-l>
-
 " Move between buffers
 map <C-j>   <C-W>j
 map <C-k>   <C-W>k
@@ -18,3 +12,9 @@ else
     map <leader>\|  :vnew<cr>
     map <leader>-   :new<cr>
 endif
+
+" Move buffers
+map <C-S-j>  <C-w><S-j>
+map <C-S-k>  <C-w><S-K>
+map <C-S-h>  <C-w><S-h>
+map <C-S-l>  <C-w><S-l>
