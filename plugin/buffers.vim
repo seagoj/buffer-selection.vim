@@ -5,13 +5,8 @@ map <C-h>   <C-W>h
 map <C-l>   <C-W>l
 
 " Split buffers
-if exists(':CtrlP')
-    map <leader>\|  :vnew<bar>CtrlP<cr>
-    map <leader>-   :new<bar>CtrlP<cr>
-else
-    map <leader>\|  :vnew<cr>
-    map <leader>-   :new<cr>
-endif
+map <leader>\|  :vnew<cr>
+map <leader>-   :new<cr>
 
 if has("gui_running")
     " Move buffers
